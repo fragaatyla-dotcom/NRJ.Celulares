@@ -27,29 +27,50 @@ body{
     height: 200px;
 }
 
-h1{
-    color: #ffffff;
+h1 {
+    color: #f7f7f7;
     font-size: 24px;
     font-weight: 500;
+    margin-top: -50px;
+}
+
+.subtitle {
+    color: #aaaaaa;
+    font-size: 15px;
 }
 
 .botao {
     width: 300px;
     padding: 16px;
-    background-color: #1e1e1e;
+    background: transparent;
     color: #ffffff;
     text-decoration: none;
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 500;
     transition: all 0.3s ease;
+    border: 1.5px solid #888888;
 }
 
 .botao:hover {
-    background-color: #00e5ff;
-    color: #000000;
+    color: #cccccc;
     cursor: pointer;
     transform: translateY(-4px);
+    border-color: #cccccc;
 }
 
+.info {
+    color:#cccccc;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 1.8;
+    letter-spacing: 0.3px;
+    text-align: center;
+    gap: 10px;
+    margin: 6px 0;
+}
